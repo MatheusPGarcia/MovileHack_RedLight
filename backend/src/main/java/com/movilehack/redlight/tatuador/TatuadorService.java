@@ -18,6 +18,11 @@ public class TatuadorService {
     return tatuador;
   }
 
+  public void saveStyle(Long id, String style) {
+    TatuadorStyle tatuadorStyle = new TatuadorStyle(id, style);
+    repositorio.saveStyle(tatuadorStyle);
+  }
+
   public List<Tatuador> listAll() {
     return repositorio.listAll();
   }

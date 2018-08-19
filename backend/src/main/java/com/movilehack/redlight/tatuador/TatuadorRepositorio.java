@@ -13,6 +13,10 @@ public class TatuadorRepositorio {
     return ObjectifyService.ofy().save().entity(tatuador).now().getId();
   }
 
+  public void saveStyle(TatuadorStyle tatuadorStyle) {
+    ObjectifyService.ofy().save().entity(tatuadorStyle).now();
+  }
+
   public List<Tatuador> listAll() {
     return ObjectifyService.ofy().load().type(Tatuador.class).list();
   }

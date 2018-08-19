@@ -16,6 +16,11 @@ public class TatuadorStyle {
   public TatuadorStyle() {
   }
 
+  public TatuadorStyle(long tatuador, String style) {
+    this.tatuador = tatuador;
+    this.style = style;
+  }
+
   public long getId() {
     return id;
   }

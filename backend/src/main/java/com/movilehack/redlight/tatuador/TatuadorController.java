@@ -26,10 +26,9 @@ public class TatuadorController extends ControllerBase {
   @ApiMethod( httpMethod = ApiMethod.HttpMethod.POST,
       name = "tatuador.saveStyle",
       path = "tatuador/{id}/style/{style}")
-  public void saveStyle(Long id, String style) {
-
+  public void saveStyle(@Named("id") Long id,@Named("style") String style) {
+    this.service.saveStyle(id, style);
   }
-
 
   @ApiMethod( httpMethod = ApiMethod.HttpMethod.GET,
       name = "tatuador.listAll",
@@ -52,6 +51,13 @@ public class TatuadorController extends ControllerBase {
       path = "tatuador/{id}")
   public Tatuador getById(@Named("id") Long id) {
     return this.service.getById(id);
+  }
+
+  @ApiMethod( httpMethod = ApiMethod.HttpMethod.GET,
+      name = "tatuador.listByLocation",
+      path = "tatuador/location/{location}")
+  public List<Tatuador> listByLocation(@Named("location") String location) {
+    return this.service.listByLocation(location);
   }
 
 }
