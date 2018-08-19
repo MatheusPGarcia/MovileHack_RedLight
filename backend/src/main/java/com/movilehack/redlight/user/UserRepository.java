@@ -20,6 +20,10 @@ public class UserRepository {
     }
 
     public User getByEmail (String email) {
-        return ObjectifyService.ofy().load().type(User.class).id(email).now();
+        return ObjectifyService.ofy().load().type(User.class).filter("email", email).now();
+    }
+
+    public User getById (long userId) {
+        return ObjectifyService.ofy().load().type(User.class).id(userId).now();
     }
 }
