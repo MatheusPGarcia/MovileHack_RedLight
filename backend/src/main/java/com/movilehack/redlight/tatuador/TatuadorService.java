@@ -18,9 +18,10 @@ public class TatuadorService {
     return tatuador;
   }
 
-  public void saveStyle(Long id, String style) {
-    TatuadorStyle tatuadorStyle = new TatuadorStyle(id, style);
-    repositorio.saveStyle(tatuadorStyle);
+  public TatuadorStyle saveStyle(TatuadorStyle style) {
+    Long id = repositorio.saveStyle(style);
+    style.setId(id);
+    return style;
   }
 
   public List<Tatuador> listAll() {
@@ -32,11 +33,11 @@ public class TatuadorService {
   }
 
   public List<Tatuador> listByStyle(String styles) {
-    String[] styleArray = styles.split(",");
+    String[] styleArray = styles.split("-");
     List<Tatuador> tatuadores = new ArrayList<>();
+    List<Long> tatuadoresIds = new ArrayList<>();
     for (int i = 0; i < styleArray.length; i++) {
       List<TatuadorStyle> tatuadoresStyle = repositorio.listByStyle(styleArray[i]);
-      List<Long> tatuadoresIds = new ArrayList<>();
       for (int x = 0; x < tatuadoresStyle.size(); x++) {
         if (!tatuadoresIds.contains(tatuadoresStyle.get(x).getTatuador())) {
           tatuadoresIds.add(tatuadoresStyle.get(x).getTatuador());

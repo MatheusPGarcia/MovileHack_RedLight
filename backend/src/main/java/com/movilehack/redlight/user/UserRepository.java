@@ -1,7 +1,6 @@
 package com.movilehack.redlight.user;
 
 import com.googlecode.objectify.ObjectifyService;
-import com.movilehack.redlight.user.model.User;
 
 import java.util.List;
 

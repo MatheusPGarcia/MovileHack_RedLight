@@ -3,7 +3,7 @@ package com.movilehack.redlight.utils;
 import com.googlecode.objectify.ObjectifyService;
 import com.movilehack.redlight.tatuador.Tatuador;
 import com.movilehack.redlight.tatuador.TatuadorStyle;
-import com.movilehack.redlight.user.model.User;
+import com.movilehack.redlight.user.User;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;

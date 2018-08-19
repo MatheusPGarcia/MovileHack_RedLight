@@ -1,7 +1,5 @@
 package com.movilehack.redlight.user;
 
-import com.movilehack.redlight.user.model.User;
-
 import java.util.List;
 
 public class UserService {

@@ -4,9 +4,6 @@ import com.google.api.server.spi.config.ApiMethod;
 import com.google.api.server.spi.config.Named;
 import com.movilehack.redlight.utils.ControllerBase;
 
-import javax.servlet.http.HttpServletRequest;
-import java.util.ArrayList;
-import java.util.List;
 
 public class UserController extends ControllerBase {
 
@@ -19,15 +16,8 @@ public class UserController extends ControllerBase {
   @ApiMethod( httpMethod = ApiMethod.HttpMethod.POST,
       name = "user.save",
       path = "user")
-  public User save(User user) {
-    return this.service.save(user);
-  }
-
-  @ApiMethod( httpMethod = ApiMethod.HttpMethod.GET,
-      name = "user.listById",
-      path = "user/{id}")
-  public User getById(@Named("id") Long id) {
-    return this.service.getById(id);
+  public void save(User user) {
+    this.service.save(user);
   }
 
   @ApiMethod( httpMethod = ApiMethod.HttpMethod.GET,

@@ -25,6 +25,8 @@ public class Tatuador {
   private String instagram;
   private String pinterest;
 
+  private String styles;
+
   private List<String> highlights;
   private List<String> portifolio;
   private float score;
@@ -151,4 +153,11 @@ public class Tatuador {
     this.location = location;
   }
 
+  public String getStyles() {
+    return styles;
+  }
+
+  public void setStyles(String styles) {
+    this.styles = styles;
+  }
 }

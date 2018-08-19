@@ -25,9 +25,9 @@ public class TatuadorController extends ControllerBase {
 
   @ApiMethod( httpMethod = ApiMethod.HttpMethod.POST,
       name = "tatuador.saveStyle",
-      path = "tatuador/{id}/style/{style}")
-  public void saveStyle(@Named("id") Long id,@Named("style") String style) {
-    this.service.saveStyle(id, style);
+      path = "tatuador/style")
+  public TatuadorStyle saveStyle(TatuadorStyle style) {
+    return this.service.saveStyle(style);
   }
 
   @ApiMethod( httpMethod = ApiMethod.HttpMethod.GET,
@@ -44,7 +44,7 @@ public class TatuadorController extends ControllerBase {
     String queryString = request.getQueryString();
     String styles = queryString.split("=")[1];
     return service.listByStyle(styles);
-  }
+}
 
   @ApiMethod( httpMethod = ApiMethod.HttpMethod.GET,
       name = "tatuador.listById",
