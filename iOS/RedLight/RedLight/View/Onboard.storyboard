@@ -115,6 +115,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fyP-59-ZF5"/>
                     </view>
+                    <navigationItem key="navigationItem" id="YeO-at-uEG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dTY-78-i0A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

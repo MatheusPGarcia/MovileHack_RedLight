@@ -24,6 +24,9 @@
 		AE39CF6A21290FCF00136257 /* UrlFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF6921290FCF00136257 /* UrlFormatter.swift */; };
 		AE39CF6C2129333800136257 /* DetailsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF6B2129333800136257 /* DetailsContainer.swift */; };
 		AE39CF6F2129487C00136257 /* Arkhip_font.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF6E21293D0700136257 /* Arkhip_font.otf */; };
+		AE39CF7121294BF800136257 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF7021294BF800136257 /* LoginViewController.swift */; };
+		AE39CF7321295AE400136257 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF7221295AE400136257 /* HomeViewController.swift */; };
+		AE39CF7521295B7200136257 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF7421295B7200136257 /* HomeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +50,9 @@
 		AE39CF6921290FCF00136257 /* UrlFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlFormatter.swift; sourceTree = "<group>"; };
 		AE39CF6B2129333800136257 /* DetailsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsContainer.swift; sourceTree = "<group>"; };
 		AE39CF6E21293D0700136257 /* Arkhip_font.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Arkhip_font.otf; path = ../../../../Arkhip_font.otf; sourceTree = "<group>"; };
+		AE39CF7021294BF800136257 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AE39CF7221295AE400136257 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AE39CF7421295B7200136257 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		AE5214EF7470ABCBE8BD10B9 /* Pods_RedLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -140,6 +146,9 @@
 			isa = PBXGroup;
 			children = (
 				AE39CF6621290D9C00136257 /* OnboardViewController.swift */,
+				AE39CF7021294BF800136257 /* LoginViewController.swift */,
+				AE39CF7221295AE400136257 /* HomeViewController.swift */,
+				AE39CF7421295B7200136257 /* HomeCollectionViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -273,10 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE39CF7121294BF800136257 /* LoginViewController.swift in Sources */,
 				AE39CF5F212908AC00136257 /* Parser.swift in Sources */,
 				AE39CF2B2128CA2200136257 /* AppDelegate.swift in Sources */,
 				AE39CF6C2129333800136257 /* DetailsContainer.swift in Sources */,
 				AE39CF6721290D9C00136257 /* OnboardViewController.swift in Sources */,
+				AE39CF7321295AE400136257 /* HomeViewController.swift in Sources */,
+				AE39CF7521295B7200136257 /* HomeCollectionViewCell.swift in Sources */,
 				AE39CF3E2128EAF000136257 /* Tattooist.swift in Sources */,
 				AE39CF6A21290FCF00136257 /* UrlFormatter.swift in Sources */,
 				AE39CF5D2129069100136257 /* NetworkConnection.swift in Sources */,
