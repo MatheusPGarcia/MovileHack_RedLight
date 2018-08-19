@@ -24,7 +24,9 @@ class HomeViewController: UIViewController {
         let tattooistAccess = TattooistController()
         tattooistAccess.getAllTattooist { (tattooists) in
             self.tattooist = tattooists
-            self.collectionView.reloadData()
+            DispatchQueue.main.async {
+                self.collectionView.reloadData()
+            }
         }
     }
 }
@@ -37,16 +39,22 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 
-        guard let cell = UICollectionViewCell() as? HomeCollectionViewCell else {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TattooistCell", for: indexPath) as? HomeCollectionViewCell else {
             return UICollectionViewCell()
         }
 
-        let index = indexPath.count
+        let index = indexPath.item
         let details = tattooist[index]
+
+        guard let urlStringArray = details.portifolioUrl else {
+            return UICollectionViewCell()
+        }
+
+        let urlString = urlStringArray.first
 
         cell.tattooist = details.name
         cell.rating = String(describing: details.score)
-        cell.imageUrl = details.avatarUrl
+        cell.imageUrl = urlString
 
         return cell
     }

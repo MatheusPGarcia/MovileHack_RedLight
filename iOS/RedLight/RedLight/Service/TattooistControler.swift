@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class TattooistController {
 
@@ -16,13 +17,24 @@ class TattooistController {
         let url = urlFormatter.getUrlString()
 
         let network = NetworkConnection()
-        network.fetch(url: url) { (data) in
+        network.fetch(by: url) { (data) in
             let parser = Parser()
             let result = parser.parseTattooistDetails(data: data)
             if let result = result {
                 let tattooistCollection = result.items
                 completion(tattooistCollection)
             }
+        }
+    }
+
+    func getImageByUrl(urlString: String, completion: @escaping (UIImage) -> Void) {
+
+        guard let url = URL(string: urlString) else { return }
+
+        let network = NetworkConnection()
+        network.fetch(by: url) { (data) in
+            guard let image = UIImage(data: data) else { return }
+            completion(image)
         }
     }
 }

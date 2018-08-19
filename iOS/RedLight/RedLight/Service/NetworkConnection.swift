@@ -11,7 +11,7 @@ import Alamofire
 
 class NetworkConnection {
 
-    func fetch(url: URL, completion: @escaping (Data) -> Void) {
+    func fetch(by url: URL, completion: @escaping (Data) -> Void) {
 
         let request = URLRequest(url: url)
 

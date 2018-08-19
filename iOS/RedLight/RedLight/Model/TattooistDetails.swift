@@ -24,7 +24,7 @@ struct TattooistDetails: Decodable {
     let instagramUrl: String?
     let pinterest: String?
 
-    let urlHighlightsTattoos: [String]?
+    let portifolioUrl: [String]?
 
     let score: Float?
 
@@ -93,7 +93,7 @@ extension TattooistDetails {
         self.instagramUrl = instagramUrl
         self.pinterest = pinterest
 
-        self.urlHighlightsTattoos = urlHighlightsTattoos
+        self.portifolioUrl = urlHighlightsTattoos
 
         self.score = score
 

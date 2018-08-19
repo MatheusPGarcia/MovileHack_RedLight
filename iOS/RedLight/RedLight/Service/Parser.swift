@@ -13,9 +13,6 @@ class Parser {
     func parseTattooistDetails(data: Data) -> DetailsContainer? {
 
         do {
-            let string1 = String(data: data, encoding: String.Encoding.utf8) ?? "Data could not be printed"
-            print(string1)
-
             let decoder = JSONDecoder()
             let tattooistResponse = try decoder.decode(DetailsContainer.self, from: data)
 
