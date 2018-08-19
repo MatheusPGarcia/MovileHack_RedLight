@@ -42,6 +42,9 @@
                                                 <integer key="value" value="12"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="7dq-Eg-REo" kind="show" id="vjV-X4-TE7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RbQ-dz-75Y">
                                         <rect key="frame" x="24" y="130.5" width="327" height="52"/>
@@ -236,6 +239,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nEx-7O-Afa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="52" y="113.79310344827587"/>
+        </scene>
+        <!--trocaDeIdeia-->
+        <scene sceneID="fJp-LH-CFz">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="trocaDeIdeia" storyboardName="trocaDeIdeia" referencedIdentifier="trocaDeIdeia" id="7dq-Eg-REo" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aao-76-yZR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="612" y="113"/>
         </scene>
     </scenes>
     <resources>

@@ -16,7 +16,6 @@
 		AE39CF55212905FB00136257 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF54212905FB00136257 /* Login.storyboard */; };
 		AE39CF572129060500136257 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF562129060500136257 /* Home.storyboard */; };
 		AE39CF592129061900136257 /* TattooistProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF582129061900136257 /* TattooistProfile.storyboard */; };
-		AE39CF5B2129062200136257 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF5A2129062200136257 /* Chat.storyboard */; };
 		AE39CF5D2129069100136257 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF5C2129069100136257 /* NetworkConnection.swift */; };
 		AE39CF5F212908AC00136257 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF5E212908AC00136257 /* Parser.swift */; };
 		AE39CF61212909DE00136257 /* TattooistDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF60212909DE00136257 /* TattooistDetails.swift */; };
@@ -28,6 +27,11 @@
 		AE39CF7521295B7200136257 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF7421295B7200136257 /* HomeCollectionViewCell.swift */; };
 		AE39CF7721295EE500136257 /* TattooistControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF7621295EE500136257 /* TattooistControler.swift */; };
 		AE39CF792129759700136257 /* TattooistProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF782129759700136257 /* TattooistProfileViewController.swift */; };
+		AE39CF7B2129967F00136257 /* trocaDeIdeia.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF7A2129967F00136257 /* trocaDeIdeia.storyboard */; };
+		AE39CF7D21299B0700136257 /* TatuadorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF7C21299B0700136257 /* TatuadorTableViewCell.swift */; };
+		AE39CF7F21299B1900136257 /* MyselfTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF7E21299B1900136257 /* MyselfTableViewCell.swift */; };
+		AE39CF8121299D3400136257 /* TrocaDeIdeiasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF8021299D3400136257 /* TrocaDeIdeiasViewController.swift */; };
+		AE39CF862129A83400136257 /* Compra.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF852129A83400136257 /* Compra.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +47,6 @@
 		AE39CF54212905FB00136257 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		AE39CF562129060500136257 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		AE39CF582129061900136257 /* TattooistProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TattooistProfile.storyboard; sourceTree = "<group>"; };
-		AE39CF5A2129062200136257 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
 		AE39CF5C2129069100136257 /* NetworkConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
 		AE39CF5E212908AC00136257 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		AE39CF60212909DE00136257 /* TattooistDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TattooistDetails.swift; sourceTree = "<group>"; };
@@ -55,6 +58,11 @@
 		AE39CF7421295B7200136257 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		AE39CF7621295EE500136257 /* TattooistControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TattooistControler.swift; sourceTree = "<group>"; };
 		AE39CF782129759700136257 /* TattooistProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TattooistProfileViewController.swift; sourceTree = "<group>"; };
+		AE39CF7A2129967F00136257 /* trocaDeIdeia.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = trocaDeIdeia.storyboard; sourceTree = "<group>"; };
+		AE39CF7C21299B0700136257 /* TatuadorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatuadorTableViewCell.swift; sourceTree = "<group>"; };
+		AE39CF7E21299B1900136257 /* MyselfTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyselfTableViewCell.swift; sourceTree = "<group>"; };
+		AE39CF8021299D3400136257 /* TrocaDeIdeiasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrocaDeIdeiasViewController.swift; sourceTree = "<group>"; };
+		AE39CF852129A83400136257 /* Compra.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Compra.storyboard; sourceTree = "<group>"; };
 		AE5214EF7470ABCBE8BD10B9 /* Pods_RedLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -138,8 +146,9 @@
 				AE39CF54212905FB00136257 /* Login.storyboard */,
 				AE39CF562129060500136257 /* Home.storyboard */,
 				AE39CF582129061900136257 /* TattooistProfile.storyboard */,
-				AE39CF5A2129062200136257 /* Chat.storyboard */,
+				AE39CF7A2129967F00136257 /* trocaDeIdeia.storyboard */,
 				AE39CF332128CA2300136257 /* LaunchScreen.storyboard */,
+				AE39CF852129A83400136257 /* Compra.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -147,10 +156,11 @@
 		AE39CF412128F0D000136257 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				AE39CF822129A03300136257 /* Cells */,
 				AE39CF7021294BF800136257 /* LoginViewController.swift */,
 				AE39CF7221295AE400136257 /* HomeViewController.swift */,
-				AE39CF7421295B7200136257 /* HomeCollectionViewCell.swift */,
 				AE39CF782129759700136257 /* TattooistProfileViewController.swift */,
+				AE39CF8021299D3400136257 /* TrocaDeIdeiasViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -171,6 +181,16 @@
 				AE39CF6921290FCF00136257 /* UrlFormatter.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AE39CF822129A03300136257 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AE39CF7E21299B1900136257 /* MyselfTableViewCell.swift */,
+				AE39CF7C21299B0700136257 /* TatuadorTableViewCell.swift */,
+				AE39CF7421295B7200136257 /* HomeCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,11 +253,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE39CF5B2129062200136257 /* Chat.storyboard in Resources */,
+				AE39CF7B2129967F00136257 /* trocaDeIdeia.storyboard in Resources */,
 				AE39CF55212905FB00136257 /* Login.storyboard in Resources */,
 				AE39CF572129060500136257 /* Home.storyboard in Resources */,
 				AE39CF6F2129487C00136257 /* Arkhip_font.otf in Resources */,
 				AE39CF592129061900136257 /* TattooistProfile.storyboard in Resources */,
+				AE39CF862129A83400136257 /* Compra.storyboard in Resources */,
 				AE39CF352128CA2300136257 /* LaunchScreen.storyboard in Resources */,
 				AE39CF53212905EA00136257 /* Onboard.storyboard in Resources */,
 				AE39CF322128CA2300136257 /* Assets.xcassets in Resources */,
@@ -288,13 +309,16 @@
 				AE39CF7121294BF800136257 /* LoginViewController.swift in Sources */,
 				AE39CF5F212908AC00136257 /* Parser.swift in Sources */,
 				AE39CF792129759700136257 /* TattooistProfileViewController.swift in Sources */,
+				AE39CF8121299D3400136257 /* TrocaDeIdeiasViewController.swift in Sources */,
 				AE39CF2B2128CA2200136257 /* AppDelegate.swift in Sources */,
 				AE39CF6C2129333800136257 /* DetailsContainer.swift in Sources */,
 				AE39CF7321295AE400136257 /* HomeViewController.swift in Sources */,
 				AE39CF7721295EE500136257 /* TattooistControler.swift in Sources */,
+				AE39CF7F21299B1900136257 /* MyselfTableViewCell.swift in Sources */,
 				AE39CF7521295B7200136257 /* HomeCollectionViewCell.swift in Sources */,
 				AE39CF3E2128EAF000136257 /* Tattooist.swift in Sources */,
 				AE39CF6A21290FCF00136257 /* UrlFormatter.swift in Sources */,
+				AE39CF7D21299B0700136257 /* TatuadorTableViewCell.swift in Sources */,
 				AE39CF5D2129069100136257 /* NetworkConnection.swift in Sources */,
 				AE39CF61212909DE00136257 /* TattooistDetails.swift in Sources */,
 			);
