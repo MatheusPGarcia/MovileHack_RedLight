@@ -4,7 +4,7 @@ import com.google.api.server.spi.config.AnnotationBoolean;
 import com.google.api.server.spi.config.Api;
 
 @Api(
-    name = "red-light-movile-hack",
+    name = "redlight",
     version = "v1"
 )
 public class ControllerBase {

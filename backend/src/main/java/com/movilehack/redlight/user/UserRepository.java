@@ -1,7 +1,6 @@
 package com.movilehack.redlight.user;
 
 import com.googlecode.objectify.ObjectifyService;
-import com.movilehack.redlight.user.model.User;
 
 import java.util.List;
 
@@ -20,6 +19,10 @@ public class UserRepository {
     }
 
     public User getByEmail (String email) {
-        return ObjectifyService.ofy().load().type(User.class).id(email).now();
+        return ObjectifyService.ofy().load().type(User.class).filter("email", email).first().now();
+    }
+
+    public User getById (long userId) {
+        return ObjectifyService.ofy().load().type(User.class).id(userId).now();
     }
 }
