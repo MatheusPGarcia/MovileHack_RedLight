@@ -18,9 +18,11 @@ public class User {
   private String name;
 
   private String email;
+  // MD5 Hash
   private String password;
   private String phone;
   private String facebookId;
+  private String address;
 
   private List<Long> savedProfiles;
   private List<Long> messages;
@@ -75,6 +77,14 @@ public class User {
 
   public void setFacebookId(String facebookId) {
     this.facebookId = facebookId;
+  }
+
+  public String getAddress() {
+    return address;
+  }
+
+  public void setAddress(String address) {
+    this.address = address;
   }
 
   public List<Long> getSavedProfiles() {
