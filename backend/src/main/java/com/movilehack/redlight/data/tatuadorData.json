@@ -4,8 +4,9 @@
     "name": "Cauã Benedito",
     "description": "HÁ 30 ANOS COLABORANDO PARA ELEVAR O PADRÃO DA TATUAGEM PROFISSIONAL NO BRASIL E NO MUNDO.",
     "avatar": "https://gattomatto.com.br/wp-content/uploads/2016/08/gatto-matto-tatuagem-capinas-sp1-e1485957118714.png",
-    "styles": "Oriental",
+    "styles": "Oriental, Geometrica",
     "instagram": "https://www.facebook.com/gattomattotattoo/",
+    "facebook": "https://www.facebook.com/gattomattotattoo/",
     "pinterest": "",
     "highlights": ["https://gattomatto.com.br/wp-content/uploads/2015/05/lello-gatto-matto-tatoo-campinas-baixa.jpg", "https://gattomatto.com.br/wp-content/uploads/2015/05/tatoo-tatuagem-campinas-gatto-matto-960x960.jpg, https://gattomatto.com.br/wp-content/uploads/2015/05/tatoo-tatuagem-campinas-gatto-matto-960x960@2x.jpg"],
     "portifolio": ["https://gattomatto.com.br/wp-content/uploads/2015/05/tattoo-tatuagem-campinas-gatto-matto1-960x960.jpg", "https://gattomatto.com.br/wp-content/uploads/2016/08/tattoo-tatuagem-campinas-gatto-matto5-960x480.jpg", "https://gattomatto.com.br/wp-content/uploads/2015/05/gatto-matto-campinas3-900x480.jpg"],
@@ -89,20 +90,27 @@
     "location": "Campinas - SP"
   },
   {
-  "id": 20,
-  "name": "Maria Candida",
-  "description": "“A finalidade da arte é dar corpo à essência secreta das coisas...” (Aristóteles)",
-  "avatar": "http://www.frrrkguys.com.br/wp-content/uploads/2015/10/1513182_10202690430891577_270452650_n.jpg",
-  "styles": "Geometrica",
-  "facebook": "",
-  "instagram": "https://www.instagram.com/reh.tattoo/",
-  "pinterest": "",
-  "highlights": ["https://instagram.fudi1-1.fna.fbcdn.net/vp/05b87f8d781f2dc4d923b3cd9008acf3/5C09316C/t51.2885-19/s150x150/16228527_1899508743629395_8644552308123762688_n.jpg", "https://instagram.fudi1-1.fna.fbcdn.net/vp/065823a14c1ce1eadbe7eeaf93f30a9e/5BF8FB9D/t51.2885-15/e35/s320x320/37355714_2483912541626270_171696669186850816_n.jpg"],
-  "portifolio": ["https://tudoela.com/wp-content/uploads/2018/03/tattoo-3d-geometico-bra%C3%A7o-1024x860.jpg", "https://tudocommoda.com/wp-content/uploads/2016/08/tatuagens-com-pontilhismo-3d-geometrico.jpg"],
-  "score": 4.9,
-  "studio": "",
-  "email": "mariacandida@tatoo.com.br",
-  "phone": "(19) 98697-1889",
-  "location": "Campinas - SP"
-  },
+      "id": "5638186843766784",
+      "name": "Ricardo Male",
+      "description": " PADRÃO DA TATUAGEM PROFISSIONAL NO BRASIL E NO MUNDO.",
+      "avatar": "https://gattomatto.com.br/wp-content/uploads/2016/08/gatto-matto-tatuagem-capinas-sp1-e1485957118714.png",
+      "facebook": "https://www.facebook.com/gattomattotattoo/",
+      "instagram": "https://www.facebook.com/gattomattotattoo/",
+      "pinterest": "",
+      "styles": "Oriental, Geometrica",
+      "highlights": [
+          "https://gattomatto.com.br/wp-content/uploads/2015/05/tatoo-tatuagem-campinas-gatto-matto-960x960.jpg",
+          "https://gattomatto.com.br/wp-content/uploads/2015/05/tatoo-tatuagem-campinas-gatto-matto-960x960@2x.jpg"
+      ],
+      "portifolio": [
+          "https://gattomatto.com.br/wp-content/uploads/2015/05/tatoo-tatuagem-campinas-gatto-matto-960x960.jpg",
+          "https://gattomatto.com.br/wp-content/uploads/2016/08/tattoo-tatuagem-campinas-gatto-matto5-960x480.jpg",
+          "https://gattomatto.com.br/wp-content/uploads/2015/05/gatto-matto-campinas3-900x480.jpg"
+      ],
+      "score": 4.5,
+      "studio": "Gatto Matto Tatoo Studio",
+      "email": "atendimento@gattomatto.com.br",
+      "phone": "+55 (19) 98111-2444",
+      "location": "Campinas - SP"
+  }
 ]
