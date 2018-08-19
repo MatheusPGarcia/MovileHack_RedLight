@@ -53,9 +53,26 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
         let urlString = urlStringArray.first
 
         cell.tattooist = details.name
-        cell.rating = String(describing: details.score)
+        cell.rating = String(describing: details.score!)
         cell.imageUrl = urlString
 
         return cell
+    }
+
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+
+        let index = indexPath.item
+
+        let profile = tattooist[index]
+
+        let view = UIStoryboard(name: "Home", bundle: nil)
+
+        guard let destination = view.instantiateViewController(withIdentifier: "TattooistProfile") as? TattooistProfileViewController else {
+            return
+        }
+
+        destination.detail = profile
+
+        self.present(destination, animated: true, completion: nil)
     }
 }

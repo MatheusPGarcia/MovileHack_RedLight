@@ -120,11 +120,20 @@
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="bzG-20-qvo" id="PfT-kE-Tew"/>
+                        <segue destination="qLe-JW-xFC" kind="show" identifier="goToProfile" id="OwO-Cz-QjC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AB4-XR-eWc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="610.39999999999998" y="-157.87106446776613"/>
+        </scene>
+        <!--TattooistProfile-->
+        <scene sceneID="eZ9-VG-LPX">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="TattooistProfile" storyboardName="TattooistProfile" referencedIdentifier="TattooistProfile" id="qLe-JW-xFC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JCh-8t-IEx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1164" y="-158"/>
         </scene>
     </scenes>
     <resources>

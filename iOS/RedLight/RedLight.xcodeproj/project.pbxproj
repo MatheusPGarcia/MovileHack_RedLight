@@ -27,6 +27,7 @@
 		AE39CF7321295AE400136257 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF7221295AE400136257 /* HomeViewController.swift */; };
 		AE39CF7521295B7200136257 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF7421295B7200136257 /* HomeCollectionViewCell.swift */; };
 		AE39CF7721295EE500136257 /* TattooistControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF7621295EE500136257 /* TattooistControler.swift */; };
+		AE39CF792129759700136257 /* TattooistProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF782129759700136257 /* TattooistProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		AE39CF7221295AE400136257 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AE39CF7421295B7200136257 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		AE39CF7621295EE500136257 /* TattooistControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TattooistControler.swift; sourceTree = "<group>"; };
+		AE39CF782129759700136257 /* TattooistProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TattooistProfileViewController.swift; sourceTree = "<group>"; };
 		AE5214EF7470ABCBE8BD10B9 /* Pods_RedLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -148,6 +150,7 @@
 				AE39CF7021294BF800136257 /* LoginViewController.swift */,
 				AE39CF7221295AE400136257 /* HomeViewController.swift */,
 				AE39CF7421295B7200136257 /* HomeCollectionViewCell.swift */,
+				AE39CF782129759700136257 /* TattooistProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			files = (
 				AE39CF7121294BF800136257 /* LoginViewController.swift in Sources */,
 				AE39CF5F212908AC00136257 /* Parser.swift in Sources */,
+				AE39CF792129759700136257 /* TattooistProfileViewController.swift in Sources */,
 				AE39CF2B2128CA2200136257 /* AppDelegate.swift in Sources */,
 				AE39CF6C2129333800136257 /* DetailsContainer.swift in Sources */,
 				AE39CF7321295AE400136257 /* HomeViewController.swift in Sources */,

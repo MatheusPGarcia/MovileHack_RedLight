@@ -28,6 +28,8 @@ struct TattooistDetails: Decodable {
 
     let score: Float?
 
+    let style: String?
+
     let location: String?
 }
 
@@ -51,6 +53,8 @@ extension TattooistDetails {
         case urlHighlightsTattoos = "portifolio"
 
         case score = "score"
+
+        case style = "styles"
 
         case location = "location"
     }
@@ -77,6 +81,8 @@ extension TattooistDetails {
 
         let score = try container.decode(Float.self, forKey: .score)
 
+        let style = try container.decode(String.self, forKey: .style)
+
         let location = try container.decode(String.self, forKey: .location)
 
         self.tattooistId = tattooistId
@@ -96,6 +102,8 @@ extension TattooistDetails {
         self.portifolioUrl = urlHighlightsTattoos
 
         self.score = score
+
+        self.style = style
 
         self.location = location
     }
