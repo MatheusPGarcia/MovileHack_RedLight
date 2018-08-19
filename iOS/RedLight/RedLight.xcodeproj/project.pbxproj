@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		A3A98815F874E778E42DF35F /* Pods_RedLight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5214EF7470ABCBE8BD10B9 /* Pods_RedLight.framework */; };
 		AE39CF2B2128CA2200136257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF2A2128CA2200136257 /* AppDelegate.swift */; };
-		AE39CF2D2128CA2200136257 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF2C2128CA2200136257 /* ViewController.swift */; };
-		AE39CF302128CA2200136257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF2E2128CA2200136257 /* Main.storyboard */; };
 		AE39CF322128CA2300136257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF312128CA2300136257 /* Assets.xcassets */; };
 		AE39CF352128CA2300136257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF332128CA2300136257 /* LaunchScreen.storyboard */; };
+		AE39CF3E2128EAF000136257 /* Tattooist.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF3D2128EAF000136257 /* Tattooist.swift */; };
+		AE39CF53212905EA00136257 /* Onboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF52212905EA00136257 /* Onboard.storyboard */; };
+		AE39CF55212905FB00136257 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF54212905FB00136257 /* Login.storyboard */; };
+		AE39CF572129060500136257 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF562129060500136257 /* Home.storyboard */; };
+		AE39CF592129061900136257 /* TattooistProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF582129061900136257 /* TattooistProfile.storyboard */; };
+		AE39CF5B2129062200136257 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF5A2129062200136257 /* Chat.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,11 +24,15 @@
 		8C9A6996D9AAE2F178473C4F /* Pods-RedLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedLight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedLight/Pods-RedLight.debug.xcconfig"; sourceTree = "<group>"; };
 		AE39CF272128CA2200136257 /* RedLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE39CF2A2128CA2200136257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE39CF2C2128CA2200136257 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AE39CF2F2128CA2200136257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE39CF312128CA2300136257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE39CF342128CA2300136257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE39CF362128CA2300136257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE39CF3D2128EAF000136257 /* Tattooist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tattooist.swift; sourceTree = "<group>"; };
+		AE39CF52212905EA00136257 /* Onboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboard.storyboard; sourceTree = "<group>"; };
+		AE39CF54212905FB00136257 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		AE39CF562129060500136257 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		AE39CF582129061900136257 /* TattooistProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TattooistProfile.storyboard; sourceTree = "<group>"; };
+		AE39CF5A2129062200136257 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
 		AE5214EF7470ABCBE8BD10B9 /* Pods_RedLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -79,13 +87,49 @@
 			isa = PBXGroup;
 			children = (
 				AE39CF2A2128CA2200136257 /* AppDelegate.swift */,
-				AE39CF2C2128CA2200136257 /* ViewController.swift */,
-				AE39CF2E2128CA2200136257 /* Main.storyboard */,
+				AE39CF422128F0D800136257 /* Service */,
+				AE39CF3F2128F0B200136257 /* Model */,
+				AE39CF412128F0D000136257 /* Controller */,
+				AE39CF402128F0C900136257 /* View */,
 				AE39CF312128CA2300136257 /* Assets.xcassets */,
-				AE39CF332128CA2300136257 /* LaunchScreen.storyboard */,
 				AE39CF362128CA2300136257 /* Info.plist */,
 			);
 			path = RedLight;
+			sourceTree = "<group>";
+		};
+		AE39CF3F2128F0B200136257 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE39CF3D2128EAF000136257 /* Tattooist.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE39CF402128F0C900136257 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE39CF52212905EA00136257 /* Onboard.storyboard */,
+				AE39CF54212905FB00136257 /* Login.storyboard */,
+				AE39CF562129060500136257 /* Home.storyboard */,
+				AE39CF582129061900136257 /* TattooistProfile.storyboard */,
+				AE39CF5A2129062200136257 /* Chat.storyboard */,
+				AE39CF332128CA2300136257 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE39CF412128F0D000136257 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AE39CF422128F0D800136257 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +193,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE39CF5B2129062200136257 /* Chat.storyboard in Resources */,
+				AE39CF55212905FB00136257 /* Login.storyboard in Resources */,
+				AE39CF572129060500136257 /* Home.storyboard in Resources */,
+				AE39CF592129061900136257 /* TattooistProfile.storyboard in Resources */,
 				AE39CF352128CA2300136257 /* LaunchScreen.storyboard in Resources */,
+				AE39CF53212905EA00136257 /* Onboard.storyboard in Resources */,
 				AE39CF322128CA2300136257 /* Assets.xcassets in Resources */,
-				AE39CF302128CA2200136257 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,22 +262,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE39CF2D2128CA2200136257 /* ViewController.swift in Sources */,
 				AE39CF2B2128CA2200136257 /* AppDelegate.swift in Sources */,
+				AE39CF3E2128EAF000136257 /* Tattooist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AE39CF2E2128CA2200136257 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE39CF2F2128CA2200136257 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AE39CF332128CA2300136257 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -363,7 +403,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3W69VTQXGX;
 				INFOPLIST_FILE = RedLight/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MatheusPGarcia.RedLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -379,7 +422,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3W69VTQXGX;
 				INFOPLIST_FILE = RedLight/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MatheusPGarcia.RedLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
