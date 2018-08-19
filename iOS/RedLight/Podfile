@@ -6,7 +6,6 @@ target 'RedLight' do
   use_frameworks!
 
   pod 'SwiftLint'
-  pod 'Alamofire', '~> 4.7'
 
   # Pods for RedLight
 

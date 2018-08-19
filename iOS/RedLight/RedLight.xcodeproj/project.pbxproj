@@ -45,6 +45,7 @@
 		AE39CF6621290D9C00136257 /* OnboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
 		AE39CF6921290FCF00136257 /* UrlFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlFormatter.swift; sourceTree = "<group>"; };
 		AE39CF6B2129333800136257 /* DetailsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsContainer.swift; sourceTree = "<group>"; };
+		AE39CF6E21293D0700136257 /* Arkhip_font.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Arkhip_font.otf; path = ../../../../Arkhip_font.otf; sourceTree = "<group>"; };
 		AE5214EF7470ABCBE8BD10B9 /* Pods_RedLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -106,6 +107,7 @@
 				AE39CF402128F0C900136257 /* View */,
 				AE39CF312128CA2300136257 /* Assets.xcassets */,
 				AE39CF362128CA2300136257 /* Info.plist */,
+				AE39CF6E21293D0700136257 /* Arkhip_font.otf */,
 			);
 			path = RedLight;
 			sourceTree = "<group>";
@@ -416,7 +418,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3W69VTQXGX;
 				INFOPLIST_FILE = RedLight/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MatheusPGarcia.RedLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -432,7 +437,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3W69VTQXGX;
 				INFOPLIST_FILE = RedLight/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MatheusPGarcia.RedLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
