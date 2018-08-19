@@ -54,4 +54,15 @@
     "savedProfiles": [53,27,81,10,61],
     "messages":[98,50,89,44,70],
   },
+  {
+    "id": 666,
+    "name": "Henrique Fogaça",
+    "email": "masterchefTatuado@comidadechef.com.br",
+    "password": "dj3dieKM9L",
+    "phone": "(11) 99407-7968",
+    "facebookId": "1836265895",
+    "address": "Campinas - SP",
+    "savedProfiles": [61],
+    "messages":[70],
+  },
 ];
