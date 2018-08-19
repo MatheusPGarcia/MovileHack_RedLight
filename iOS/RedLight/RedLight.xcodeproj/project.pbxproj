@@ -23,6 +23,7 @@
 		AE39CF6721290D9C00136257 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF6621290D9C00136257 /* OnboardViewController.swift */; };
 		AE39CF6A21290FCF00136257 /* UrlFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF6921290FCF00136257 /* UrlFormatter.swift */; };
 		AE39CF6C2129333800136257 /* DetailsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF6B2129333800136257 /* DetailsContainer.swift */; };
+		AE39CF6F2129487C00136257 /* Arkhip_font.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF6E21293D0700136257 /* Arkhip_font.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -223,6 +224,7 @@
 				AE39CF5B2129062200136257 /* Chat.storyboard in Resources */,
 				AE39CF55212905FB00136257 /* Login.storyboard in Resources */,
 				AE39CF572129060500136257 /* Home.storyboard in Resources */,
+				AE39CF6F2129487C00136257 /* Arkhip_font.otf in Resources */,
 				AE39CF592129061900136257 /* TattooistProfile.storyboard in Resources */,
 				AE39CF352128CA2300136257 /* LaunchScreen.storyboard in Resources */,
 				AE39CF53212905EA00136257 /* Onboard.storyboard in Resources */,
