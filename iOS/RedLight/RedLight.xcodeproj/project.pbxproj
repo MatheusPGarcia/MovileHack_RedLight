@@ -18,6 +18,8 @@
 		AE39CF592129061900136257 /* TattooistProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF582129061900136257 /* TattooistProfile.storyboard */; };
 		AE39CF5B2129062200136257 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF5A2129062200136257 /* Chat.storyboard */; };
 		AE39CF5D2129069100136257 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF5C2129069100136257 /* NetworkConnection.swift */; };
+		AE39CF5F212908AC00136257 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF5E212908AC00136257 /* Parser.swift */; };
+		AE39CF61212909DE00136257 /* TattooistDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF60212909DE00136257 /* TattooistDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		AE39CF582129061900136257 /* TattooistProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TattooistProfile.storyboard; sourceTree = "<group>"; };
 		AE39CF5A2129062200136257 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
 		AE39CF5C2129069100136257 /* NetworkConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		AE39CF5E212908AC00136257 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		AE39CF60212909DE00136257 /* TattooistDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TattooistDetails.swift; sourceTree = "<group>"; };
 		AE5214EF7470ABCBE8BD10B9 /* Pods_RedLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				AE39CF3D2128EAF000136257 /* Tattooist.swift */,
+				AE39CF60212909DE00136257 /* TattooistDetails.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				AE39CF5C2129069100136257 /* NetworkConnection.swift */,
+				AE39CF5E212908AC00136257 /* Parser.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -265,9 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE39CF5F212908AC00136257 /* Parser.swift in Sources */,
 				AE39CF2B2128CA2200136257 /* AppDelegate.swift in Sources */,
 				AE39CF3E2128EAF000136257 /* Tattooist.swift in Sources */,
 				AE39CF5D2129069100136257 /* NetworkConnection.swift in Sources */,
+				AE39CF61212909DE00136257 /* TattooistDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
