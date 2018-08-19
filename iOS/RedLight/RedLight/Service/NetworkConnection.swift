@@ -7,10 +7,11 @@
 //
 
 import Foundation
+import Alamofire
 
 class NetworkConnection {
 
-    class func fetch(url: URL, completion: @escaping (Data) -> Void) {
+    func fetch(url: URL, completion: @escaping (Data) -> Void) {
 
         let request = URLRequest(url: url)
 
@@ -18,19 +19,14 @@ class NetworkConnection {
         let session = URLSession(configuration: sessionConfiguration)
 
         session.dataTask(with: request) { (data, _, error) in
-
             if let error = error {
-                print("Ops, something went wrong while trying to fetch with url:\n\(url)")
-                print("Error: \(error)")
+                print("Error fetching json: \(error)")
                 return
             }
 
-            guard let data = data else {
-                print("Data is empty")
-                return
+            if let data = data {
+                completion(data)
             }
-
-            completion(data)
-        }
+            }.resume()
     }
 }
