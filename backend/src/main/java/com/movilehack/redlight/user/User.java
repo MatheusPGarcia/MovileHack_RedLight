@@ -25,51 +25,71 @@ public class User {
   private List<Long> savedProfiles;
   private List<Long> messages;
 
-  public String getName(){
+
+  public User() {
+  }
+
+  public long getId() {
+    return id;
+  }
+
+  public void setId(long id) {
+    this.id = id;
+  }
+
+  public String getName() {
     return name;
   }
 
-  public String getEmail(){
-    return email;
-  }
-
-  public String getPhone(){
-    return phone;
-  }
-
-  public String getFacebookId(){
-    return facebookId;
-  }
-
-  public List<Long> getSavedProfiles(){
-    return savedProfiles;
-  }
-  
-  public List<Long> getMessages(){
-    return messages;
-  }
-
-  public void setName(name){
+  public void setName(String name) {
     this.name = name;
   }
 
-  public void setEmail(email){
+  public String getEmail() {
+    return email;
+  }
+
+  public void setEmail(String email) {
     this.email = email;
   }
 
-  public void getPhone(phone){
+  public String getPassword() {
+    return password;
+  }
+
+  public void setPassword(String password) {
+    this.password = password;
+  }
+
+  public String getPhone() {
+    return phone;
+  }
+
+  public void setPhone(String phone) {
     this.phone = phone;
   }
 
-  public void facebook(facebookId){
-    this.facebookId= facebookId;
+  public String getFacebookId() {
+    return facebookId;
   }
 
-  public void addSavedProfiles(profileId){
-    savedProfiles.push(profileId);
+  public void setFacebookId(String facebookId) {
+    this.facebookId = facebookId;
   }
 
-  public void addMessages(messageId){
-    messages.push(messageId);
+  public List<Long> getSavedProfiles() {
+    return savedProfiles;
+  }
+
+  public void setSavedProfiles(List<Long> savedProfiles) {
+    this.savedProfiles = savedProfiles;
+  }
+
+  public List<Long> getMessages() {
+    return messages;
+  }
+
+  public void setMessages(List<Long> messages) {
+    this.messages = messages;
   }
 }

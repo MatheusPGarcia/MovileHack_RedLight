@@ -40,7 +40,7 @@ public class TatuadorController extends ControllerBase {
   }
 
   @ApiMethod( httpMethod = ApiMethod.HttpMethod.GET,
-      name = "tatuador.listByStyle",
+      name = "tatuador.listById",
       path = "tatuador/{id}")
   public Tatuador getById(@Named("id") Long id) {
     return this.service.getById(id);

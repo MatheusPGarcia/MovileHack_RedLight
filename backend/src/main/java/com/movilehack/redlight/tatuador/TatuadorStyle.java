@@ -9,7 +9,7 @@ import com.googlecode.objectify.annotation.Id;
 public class TatuadorStyle {
 
   @Id
-  private long id;
+  private Long id;
   private long tatuador;
   private String style;
 
@@ -39,5 +39,4 @@ public class TatuadorStyle {
   public void setStyle(String style) {
     this.style = style;
   }
-
 }

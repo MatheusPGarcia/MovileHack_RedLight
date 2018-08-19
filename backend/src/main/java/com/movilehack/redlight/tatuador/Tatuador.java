@@ -12,7 +12,7 @@ import java.util.List;
 public class Tatuador {
 
   @Id
-  private long id;
+  private Long id;
 
   @Index
   private String name;
