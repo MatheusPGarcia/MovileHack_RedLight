@@ -61,4 +61,15 @@ extension TrocaDeIdeiasViewController: UITableViewDelegate, UITableViewDataSourc
             return cell
         }
     }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+        let view = UIStoryboard(name: "trocaDeIdeia", bundle: nil)
+
+        let identifier = "FinishScreen"
+
+        let destination = view.instantiateViewController(withIdentifier: identifier)
+
+        self.present(destination, animated: true, completion: nil)
+    }
 }
