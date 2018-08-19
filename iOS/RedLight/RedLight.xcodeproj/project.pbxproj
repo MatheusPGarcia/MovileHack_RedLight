@@ -17,6 +17,7 @@
 		AE39CF572129060500136257 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF562129060500136257 /* Home.storyboard */; };
 		AE39CF592129061900136257 /* TattooistProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF582129061900136257 /* TattooistProfile.storyboard */; };
 		AE39CF5B2129062200136257 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39CF5A2129062200136257 /* Chat.storyboard */; };
+		AE39CF5D2129069100136257 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39CF5C2129069100136257 /* NetworkConnection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		AE39CF562129060500136257 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		AE39CF582129061900136257 /* TattooistProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TattooistProfile.storyboard; sourceTree = "<group>"; };
 		AE39CF5A2129062200136257 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		AE39CF5C2129069100136257 /* NetworkConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
 		AE5214EF7470ABCBE8BD10B9 /* Pods_RedLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -128,6 +130,7 @@
 		AE39CF422128F0D800136257 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				AE39CF5C2129069100136257 /* NetworkConnection.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				AE39CF2B2128CA2200136257 /* AppDelegate.swift in Sources */,
 				AE39CF3E2128EAF000136257 /* Tattooist.swift in Sources */,
+				AE39CF5D2129069100136257 /* NetworkConnection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
