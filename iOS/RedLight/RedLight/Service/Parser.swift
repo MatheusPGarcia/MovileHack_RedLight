@@ -18,7 +18,7 @@ class Parser {
 
             let decoder = JSONDecoder()
             let tattooistResponse = try decoder.decode(DetailsContainer.self, from: data)
-            print("\n\n\n\n\n\nOH YEAH MTF, IF I APPEARS YOU MADE IT YOU SON OF A BITCH!\n\n\n\n\n\n")
+
             return tattooistResponse
         } catch {
             print("\n\n\nError decoding user details JSON: \(error)\n\n\n")

@@ -9,5 +9,13 @@
 import UIKit
 
 class HomeCollectionViewCell: UICollectionViewCell {
-    
+
+    @IBOutlet weak var cardImage: UIImageView!
+    @IBOutlet weak var favoriteOutlet: UIImageView!
+    @IBOutlet weak var ratingLabel: UILabel!
+    @IBOutlet weak var tattooistName: UILabel!
+
+    var imageUrl: String?
+    var rating: String?
+    var tattooist: String?
 }
