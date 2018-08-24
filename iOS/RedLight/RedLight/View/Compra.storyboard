@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Iu6-3J-mwy">
+            <objects>
+                <viewController restorationIdentifier="FinishScreen" storyboardIdentifier="FinishScreen" id="Isg-3e-0kB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="82P-eT-EKO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Parabéns! Agora você já pode agendar uma data pra fazer sua nova tatau." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSR-VZ-kXW">
+                                <rect key="frame" x="24" y="288.5" width="310" height="104"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NGv-MM-XXM">
+                                <rect key="frame" x="24" y="571" width="327" height="52"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="H62-jH-DCK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="CONCLUIR">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Parabéns!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0h3-uq-FHo">
+                                <rect key="frame" x="24" y="222.5" width="141" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.30980392156862746" green="0.76862745098039209" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="tSR-VZ-kXW" secondAttribute="trailing" constant="41" id="8m4-qi-aaw"/>
+                            <constraint firstItem="Iq5-EO-hyd" firstAttribute="trailing" secondItem="NGv-MM-XXM" secondAttribute="trailing" constant="24" id="9d7-xM-sRz"/>
+                            <constraint firstItem="NGv-MM-XXM" firstAttribute="leading" secondItem="Iq5-EO-hyd" secondAttribute="leading" constant="24" id="IVi-kK-L39"/>
+                            <constraint firstItem="0h3-uq-FHo" firstAttribute="centerY" secondItem="Iq5-EO-hyd" secondAttribute="centerY" multiplier="0.7" id="Iba-bo-XZY"/>
+                            <constraint firstItem="0h3-uq-FHo" firstAttribute="leading" secondItem="Iq5-EO-hyd" secondAttribute="leading" constant="24" id="Iw4-i4-ET8"/>
+                            <constraint firstItem="Iq5-EO-hyd" firstAttribute="bottom" secondItem="NGv-MM-XXM" secondAttribute="bottom" constant="44" id="hv2-JC-7HH"/>
+                            <constraint firstItem="tSR-VZ-kXW" firstAttribute="leading" secondItem="0h3-uq-FHo" secondAttribute="leading" id="kTQ-LQ-LOW"/>
+                            <constraint firstItem="tSR-VZ-kXW" firstAttribute="top" secondItem="0h3-uq-FHo" secondAttribute="bottom" constant="30" id="xrj-7O-YMV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Iq5-EO-hyd"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vxf-93-0cO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="375" y="-199"/>
+        </scene>
+    </scenes>
+</document>
